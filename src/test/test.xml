@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="template" parallel="tests">
+  <listeners>
+    <listener class-name="cat.gencat.mat.ExecutionListener" />
+    <listener class-name="app.getxray.xray.testng.listeners.XrayListener" />
+  </listeners>
+
+  <!--TEST TEMPLATE: Básico-->
+  
+  <test name="QualityGenCatTest.Chrome" parallel="methods">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="QualityGenCatTest"></class>
+    </classes>
+  </test>
+  
+  <test name="QualityGenCatTest.Edge" parallel="methods">
+    <parameter name="browser" value="edge" />
+    <classes>
+      <class name="QualityGenCatTest"></class>
+    </classes>
+  </test>
+  
+  <test name="QualityGenCatTest.Firefox" parallel="methods">
+    <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="QualityGenCatTest"></class>
+    </classes>
+  </test>
+  
+  
+</suite>

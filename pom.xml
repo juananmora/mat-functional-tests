@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ctti</groupId>
+  <artifactId>template</artifactId>
+  <version>1.0</version>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+ <profiles>
+  <profile>
+    <id>github</id>
+    <activation>
+      <property>
+        <name>github.credentials</name>
+        <value>true</value>
+      </property>
+    </activation>
+    <properties>
+      <github.username>${env.GITHUB_USER}</github.username>
+      <github.password>${env.GITHUB_PASSWORD}</github.password>
+    </properties>
+  </profile>
+</profiles>
+
+         
+  <repositories>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/ctti-dev/3632.00-mat-functional-library</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>cat.gencat.mat</groupId>
+      <artifactId>mat-selenium</artifactId>
+      <version>0.8-alpha</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+          <source>11</source>
+          <target>11</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions>
+          <execution>
+            <id>copy-report-logo</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/target/report</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>src/test/resources</directory>
+                  <includes>
+                    <include>logo.png</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>src/test/test.xml</suiteXmlFile>
+          </suiteXmlFiles>
+          <properties>
+            <property>
+              <name>reporter</name>
+              <value>org.testng.reporters.XMLReporter:generateTestResultAttributes=true</value>
+            </property>
+          </properties>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>app.getxray</groupId>
+        <artifactId>xray-maven-plugin</artifactId>
+        <version>0.8.0</version>
+        <configuration>
+          <cloud>true</cloud>
+          <projectKey>DEVSECOPS2</projectKey>
+          <reportFormat>testng</reportFormat>
+          <reportFile>target/surefire-reports/testng-results.xml</reportFile>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
