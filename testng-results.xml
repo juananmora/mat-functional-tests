@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-28T09:02:58 UTC" name="template" finished-at="2025-03-28T09:03:23 UTC" duration-ms="25150">
+    <groups>
+    </groups>
+    <test started-at="2025-03-28T09:02:58 UTC" name="QualityGenCatTest.Chrome" finished-at="2025-03-28T09:03:03 UTC" duration-ms="5477">
+      <class name="QualityGenCatTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@5f0fd5a0]" started-at="2025-03-28T09:02:58 UTC" name="testInit" finished-at="2025-03-28T09:02:59 UTC" duration-ms="904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="qualityGenCatTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@5f0fd5a0]" started-at="2025-03-28T09:02:59 UTC" name="qualityGenCatTest" finished-at="2025-03-28T09:03:02 UTC" duration-ms="3129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-1]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-4]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- qualityGenCatTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:QualityGenCatTest@5f0fd5a0]" started-at="2025-03-28T09:03:02 UTC" name="testQuit" finished-at="2025-03-28T09:03:02 UTC" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:QualityGenCatTest@5f0fd5a0]" started-at="2025-03-28T09:03:02 UTC" name="testShutdown" finished-at="2025-03-28T09:03:03 UTC" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- QualityGenCatTest -->
+    </test> <!-- QualityGenCatTest.Chrome -->
+    <test started-at="2025-03-28T09:02:58 UTC" name="QualityGenCatTest.Edge" finished-at="2025-03-28T09:03:04 UTC" duration-ms="6132">
+      <class name="QualityGenCatTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@a37aefe]" started-at="2025-03-28T09:02:58 UTC" name="testInit" finished-at="2025-03-28T09:02:59 UTC" duration-ms="985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="qualityGenCatTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@a37aefe]" started-at="2025-03-28T09:02:59 UTC" name="qualityGenCatTest" finished-at="2025-03-28T09:03:02 UTC" duration-ms="3116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-1]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-4]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- qualityGenCatTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:QualityGenCatTest@a37aefe]" started-at="2025-03-28T09:03:02 UTC" name="testQuit" finished-at="2025-03-28T09:03:03 UTC" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:QualityGenCatTest@a37aefe]" started-at="2025-03-28T09:03:03 UTC" name="testShutdown" finished-at="2025-03-28T09:03:04 UTC" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- QualityGenCatTest -->
+    </test> <!-- QualityGenCatTest.Edge -->
+    <test started-at="2025-03-28T09:02:58 UTC" name="QualityGenCatTest.Firefox" finished-at="2025-03-28T09:03:05 UTC" duration-ms="7239">
+      <class name="QualityGenCatTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-03-28T09:02:58 UTC" name="testInit" finished-at="2025-03-28T09:03:01 UTC" duration-ms="2981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="qualityGenCatTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-03-28T09:03:01 UTC" name="qualityGenCatTest" finished-at="2025-03-28T09:03:04 UTC" duration-ms="2972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-1]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-4]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- qualityGenCatTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-03-28T09:03:04 UTC" name="testQuit" finished-at="2025-03-28T09:03:05 UTC" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-03-28T09:03:05 UTC" name="testShutdown" finished-at="2025-03-28T09:03:05 UTC" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- QualityGenCatTest -->
+    </test> <!-- QualityGenCatTest.Firefox -->
+    <test started-at="2025-03-28T09:03:03 UTC" name="MainNavigationTest.Chrome" finished-at="2025-03-28T09:03:08 UTC" duration-ms="4270">
+      <class name="MainNavigationTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:MainNavigationTest@766653e6]" started-at="2025-03-28T09:03:03 UTC" name="testInit" finished-at="2025-03-28T09:03:04 UTC" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void MainNavigationTest.mainNavigationTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="mainNavigationTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:MainNavigationTest@766653e6]" started-at="2025-03-28T09:03:04 UTC" name="mainNavigationTest" finished-at="2025-03-28T09:03:07 UTC" duration-ms="3174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void MainNavigationTest.mainNavigationTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-NEW]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-NEW-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- mainNavigationTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:MainNavigationTest@766653e6]" started-at="2025-03-28T09:03:07 UTC" name="testQuit" finished-at="2025-03-28T09:03:07 UTC" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:MainNavigationTest@766653e6]" started-at="2025-03-28T09:03:07 UTC" name="testShutdown" finished-at="2025-03-28T09:03:08 UTC" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- MainNavigationTest -->
+    </test> <!-- MainNavigationTest.Chrome -->
+    <test started-at="2025-03-28T09:03:04 UTC" name="MainNavigationTest.Edge" finished-at="2025-03-28T09:03:10 UTC" duration-ms="5838">
+      <class name="MainNavigationTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:MainNavigationTest@3b79fd76]" started-at="2025-03-28T09:03:04 UTC" name="testInit" finished-at="2025-03-28T09:03:04 UTC" duration-ms="512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void MainNavigationTest.mainNavigationTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="mainNavigationTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:MainNavigationTest@3b79fd76]" started-at="2025-03-28T09:03:04 UTC" name="mainNavigationTest" finished-at="2025-03-28T09:03:08 UTC" duration-ms="3455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void MainNavigationTest.mainNavigationTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-NEW]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-NEW-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- mainNavigationTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:MainNavigationTest@3b79fd76]" started-at="2025-03-28T09:03:08 UTC" name="testQuit" finished-at="2025-03-28T09:03:09 UTC" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:MainNavigationTest@3b79fd76]" started-at="2025-03-28T09:03:09 UTC" name="testShutdown" finished-at="2025-03-28T09:03:10 UTC" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- MainNavigationTest -->
+    </test> <!-- MainNavigationTest.Edge -->
+    <test started-at="2025-03-28T09:03:08 UTC" name="IniciFaqsProvesTest.Chrome" finished-at="2025-03-28T09:03:11 UTC" duration-ms="3398">
+      <class name="IniciFaqsProvesTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:IniciFaqsProvesTest@797b0699]" started-at="2025-03-28T09:03:08 UTC" name="testInit" finished-at="2025-03-28T09:03:08 UTC" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void IniciFaqsProvesTest.iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:IniciFaqsProvesTest@797b0699]" started-at="2025-03-28T09:03:08 UTC" name="iniciFaqsProvesTest" finished-at="2025-03-28T09:03:10 UTC" duration-ms="2155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void IniciFaqsProvesTest.iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-NEW2]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-NEW2-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- iniciFaqsProvesTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:IniciFaqsProvesTest@797b0699]" started-at="2025-03-28T09:03:10 UTC" name="testQuit" finished-at="2025-03-28T09:03:10 UTC" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:IniciFaqsProvesTest@797b0699]" started-at="2025-03-28T09:03:10 UTC" name="testShutdown" finished-at="2025-03-28T09:03:11 UTC" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- IniciFaqsProvesTest -->
+    </test> <!-- IniciFaqsProvesTest.Chrome -->
+    <test started-at="2025-03-28T09:03:05 UTC" name="MainNavigationTest.Firefox" finished-at="2025-03-28T09:03:13 UTC" duration-ms="7537">
+      <class name="MainNavigationTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:MainNavigationTest@6b6776cb]" started-at="2025-03-28T09:03:05 UTC" name="testInit" finished-at="2025-03-28T09:03:07 UTC" duration-ms="2173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void MainNavigationTest.mainNavigationTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="mainNavigationTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:MainNavigationTest@6b6776cb]" started-at="2025-03-28T09:03:07 UTC" name="mainNavigationTest" finished-at="2025-03-28T09:03:11 UTC" duration-ms="3758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void MainNavigationTest.mainNavigationTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-NEW]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-NEW-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- mainNavigationTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:MainNavigationTest@6b6776cb]" started-at="2025-03-28T09:03:11 UTC" name="testQuit" finished-at="2025-03-28T09:03:12 UTC" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:MainNavigationTest@6b6776cb]" started-at="2025-03-28T09:03:12 UTC" name="testShutdown" finished-at="2025-03-28T09:03:13 UTC" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- MainNavigationTest -->
+    </test> <!-- MainNavigationTest.Firefox -->
+    <test started-at="2025-03-28T09:03:10 UTC" name="IniciFaqsProvesTest.Edge" finished-at="2025-03-28T09:03:14 UTC" duration-ms="3992">
+      <class name="IniciFaqsProvesTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:IniciFaqsProvesTest@6b58b9e9]" started-at="2025-03-28T09:03:10 UTC" name="testInit" finished-at="2025-03-28T09:03:10 UTC" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void IniciFaqsProvesTest.iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:IniciFaqsProvesTest@6b58b9e9]" started-at="2025-03-28T09:03:10 UTC" name="iniciFaqsProvesTest" finished-at="2025-03-28T09:03:12 UTC" duration-ms="1948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void IniciFaqsProvesTest.iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-NEW2]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-NEW2-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- iniciFaqsProvesTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:IniciFaqsProvesTest@6b58b9e9]" started-at="2025-03-28T09:03:12 UTC" name="testQuit" finished-at="2025-03-28T09:03:13 UTC" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:IniciFaqsProvesTest@6b58b9e9]" started-at="2025-03-28T09:03:13 UTC" name="testShutdown" finished-at="2025-03-28T09:03:14 UTC" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- IniciFaqsProvesTest -->
+    </test> <!-- IniciFaqsProvesTest.Edge -->
+    <test started-at="2025-03-28T09:03:13 UTC" name="ProductoFilterTest.Chrome" finished-at="2025-03-28T09:03:15 UTC" duration-ms="2209">
+      <class name="ProductoFilterTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:ProductoFilterTest@27508c5d]" started-at="2025-03-28T09:03:13 UTC" name="testInit" finished-at="2025-03-28T09:03:13 UTC" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void ProductoFilterTest.productoFilterTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="productoFilterTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:ProductoFilterTest@27508c5d]" started-at="2025-03-28T09:03:13 UTC" name="productoFilterTest" finished-at="2025-03-28T09:03:14 UTC" duration-ms="1219" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void ProductoFilterTest.productoFilterTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[NoSuchFrameException :: no such frame]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: NoSuchFrameException :: no such frame
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-PF]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-PF-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- productoFilterTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:ProductoFilterTest@27508c5d]" started-at="2025-03-28T09:03:14 UTC" name="testQuit" finished-at="2025-03-28T09:03:14 UTC" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:ProductoFilterTest@27508c5d]" started-at="2025-03-28T09:03:14 UTC" name="testShutdown" finished-at="2025-03-28T09:03:15 UTC" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- ProductoFilterTest -->
+    </test> <!-- ProductoFilterTest.Chrome -->
+    <test started-at="2025-03-28T09:03:14 UTC" name="ProductoFilterTest.Edge" finished-at="2025-03-28T09:03:17 UTC" duration-ms="3339">
+      <class name="ProductoFilterTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:ProductoFilterTest@3ddc6915]" started-at="2025-03-28T09:03:14 UTC" name="testInit" finished-at="2025-03-28T09:03:14 UTC" duration-ms="556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void ProductoFilterTest.productoFilterTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="productoFilterTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:ProductoFilterTest@3ddc6915]" started-at="2025-03-28T09:03:14 UTC" name="productoFilterTest" finished-at="2025-03-28T09:03:16 UTC" duration-ms="1176" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void ProductoFilterTest.productoFilterTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[NoSuchFrameException :: no such frame]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: NoSuchFrameException :: no such frame
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-PF]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-PF-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- productoFilterTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:ProductoFilterTest@3ddc6915]" started-at="2025-03-28T09:03:16 UTC" name="testQuit" finished-at="2025-03-28T09:03:17 UTC" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:ProductoFilterTest@3ddc6915]" started-at="2025-03-28T09:03:17 UTC" name="testShutdown" finished-at="2025-03-28T09:03:17 UTC" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- ProductoFilterTest -->
+    </test> <!-- ProductoFilterTest.Edge -->
+    <test started-at="2025-03-28T09:03:11 UTC" name="IniciFaqsProvesTest.Firefox" finished-at="2025-03-28T09:03:18 UTC" duration-ms="7116">
+      <class name="IniciFaqsProvesTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:IniciFaqsProvesTest@79c97cb]" started-at="2025-03-28T09:03:11 UTC" name="testInit" finished-at="2025-03-28T09:03:13 UTC" duration-ms="2423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void IniciFaqsProvesTest.iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:IniciFaqsProvesTest@79c97cb]" started-at="2025-03-28T09:03:13 UTC" name="iniciFaqsProvesTest" finished-at="2025-03-28T09:03:16 UTC" duration-ms="2875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void IniciFaqsProvesTest.iniciFaqsProvesTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-NEW2]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-NEW2-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- iniciFaqsProvesTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:IniciFaqsProvesTest@79c97cb]" started-at="2025-03-28T09:03:16 UTC" name="testQuit" finished-at="2025-03-28T09:03:17 UTC" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:IniciFaqsProvesTest@79c97cb]" started-at="2025-03-28T09:03:17 UTC" name="testShutdown" finished-at="2025-03-28T09:03:18 UTC" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- IniciFaqsProvesTest -->
+    </test> <!-- IniciFaqsProvesTest.Firefox -->
+    <test started-at="2025-03-28T09:03:15 UTC" name="ProductoFilterTest.Firefox" finished-at="2025-03-28T09:03:23 UTC" duration-ms="8051">
+      <class name="ProductoFilterTest">
+        <test-method is-config="true" signature="suiteInit()[pri:0, instance:ProductoFilterTest@1e81f160]" started-at="2025-03-28T09:02:57 UTC" name="suiteInit" finished-at="2025-03-28T09:02:58 UTC" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteInit -->
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:ProductoFilterTest@1e81f160]" started-at="2025-03-28T09:03:15 UTC" name="testInit" finished-at="2025-03-28T09:03:19 UTC" duration-ms="3750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void ProductoFilterTest.productoFilterTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="productoFilterTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:ProductoFilterTest@1e81f160]" started-at="2025-03-28T09:03:19 UTC" name="productoFilterTest" finished-at="2025-03-28T09:03:22 UTC" duration-ms="3284" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void ProductoFilterTest.productoFilterTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[NoSuchFrameException :: Unable to locate frame with index: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: NoSuchFrameException :: Unable to locate frame with index: 0
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-PF]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-PF-REQ]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- productoFilterTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:ProductoFilterTest@1e81f160]" started-at="2025-03-28T09:03:22 UTC" name="testQuit" finished-at="2025-03-28T09:03:22 UTC" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:ProductoFilterTest@1e81f160]" started-at="2025-03-28T09:03:22 UTC" name="testShutdown" finished-at="2025-03-28T09:03:23 UTC" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+        <test-method is-config="true" signature="suiteShutdown()[pri:0, instance:ProductoFilterTest@1e81f160]" started-at="2025-03-28T09:03:23 UTC" name="suiteShutdown" finished-at="2025-03-28T09:03:23 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteShutdown -->
+      </class> <!-- ProductoFilterTest -->
+    </test> <!-- ProductoFilterTest.Firefox -->
+  </suite> <!-- template -->
+</testng-results>
